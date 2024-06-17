@@ -11,7 +11,7 @@ public:
   void attach(pin_size_t pin, int min, int max);
   void attach(pin_size_t pin);
   void write(int time_ms, int angle);
-  void loop();
+  void loopProcess();
 
   pin_size_t m_pin;
   int m_min_us;

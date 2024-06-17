@@ -45,7 +45,7 @@ void SpeedControlServo::write(int time_ms, int angle) {
   m_move_flag = true;
 }
 
-void SpeedControlServo::loop() {
+void SpeedControlServo::loopProcess() {
   int time_us = micros() - m_pre_us;
   if (time_us < 0) {
     return;

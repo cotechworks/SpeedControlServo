@@ -20,5 +20,5 @@ void loop() {
 
 void loop1() {
   // Loop Process
-  servo.loop();
+  servo.loopProcess();
 }
